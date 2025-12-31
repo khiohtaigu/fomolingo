@@ -18,7 +18,13 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
-*.ntvs*
+*.ntvs
 *.njsproj
 *.sln
 *.sw?
+
+# --- 重點：在這裡加入環境變數檔案設定 ---
+.env
+.env.local
+.env.*.local
+ Fomolingo 暫存/

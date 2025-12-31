@@ -1562,7 +1562,7 @@ export default function App() {
   // ==========================================
   
   // 1. 請將你的 API Key 貼在下方引號中
-  const apiKey = "AIzaSyDeT8iCZVWOol8riIAlb-b0FFgHJ0pf_o8"; 
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY; 
 
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [geminiAnalysis, setGeminiAnalysis] = useState('');
